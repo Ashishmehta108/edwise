@@ -1,0 +1,213 @@
+Date : 2025-06-27 22:03:45
+Directory : c:\Users\ashis\edwise
+Total : 141 files,  27208 codes, 314 comments, 1778 blanks, all 29300 lines
+
+Languages
++--------------------+------------+------------+------------+------------+------------+
+| language           | files      | code       | comment    | blank      | total      |
++--------------------+------------+------------+------------+------------+------------+
+| JSON               |         24 |     13,639 |          0 |         11 |     13,650 |
+| TypeScript JSX     |         79 |      8,356 |        166 |        836 |      9,358 |
+| YAML               |          1 |      3,588 |          0 |        706 |      4,294 |
+| TypeScript         |         15 |      1,217 |        138 |        189 |      1,544 |
+| PostCSS            |          2 |        193 |          0 |         10 |        203 |
+| JSON with Comments |          4 |         69 |          0 |          4 |         73 |
+| MS SQL             |          1 |         64 |          8 |          0 |         72 |
+| JavaScript         |         10 |         43 |          2 |          5 |         50 |
+| Markdown           |          3 |         37 |          0 |         17 |         54 |
+| XML                |          2 |          2 |          0 |          0 |          2 |
++--------------------+------------+------------+------------+------------+------------+
+
+Directories
++------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                               | files      | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                  |        141 |     27,208 |        314 |      1,778 |     29,300 |
+| . (Files)                                                                          |          1 |          7 |          0 |          0 |          7 |
+| ai                                                                                 |         10 |      3,481 |          1 |         35 |      3,517 |
+| ai\client                                                                          |          5 |      1,765 |          0 |          9 |      1,774 |
+| ai\server                                                                          |          5 |      1,716 |          1 |         26 |      1,743 |
+| backend                                                                            |         14 |      4,090 |         27 |         86 |      4,203 |
+| backend (Files)                                                                    |          6 |      2,991 |          0 |         11 |      3,002 |
+| backend\drizzle                                                                    |          3 |        563 |          8 |          0 |        571 |
+| backend\drizzle (Files)                                                            |          1 |         64 |          8 |          0 |         72 |
+| backend\drizzle\meta                                                               |          2 |        499 |          0 |          0 |        499 |
+| backend\src                                                                        |          5 |        536 |         19 |         75 |        630 |
+| backend\src (Files)                                                                |          1 |         19 |          0 |          5 |         24 |
+| backend\src\controllers                                                            |          1 |        364 |          5 |         45 |        414 |
+| backend\src\database                                                               |          2 |         83 |          7 |         12 |        102 |
+| backend\src\database (Files)                                                       |          1 |          4 |          0 |          3 |          7 |
+| backend\src\database\schema                                                        |          1 |         79 |          7 |          9 |         95 |
+| backend\src\routes                                                                 |          1 |         70 |          7 |         13 |         90 |
+| frontend                                                                           |        116 |     19,630 |        286 |      1,657 |     21,573 |
+| frontend (Files)                                                                   |         11 |     10,669 |          8 |        730 |     11,407 |
+| frontend\.next                                                                     |         19 |         85 |        106 |         15 |        206 |
+| frontend\.next (Files)                                                             |          4 |         22 |          0 |          0 |         22 |
+| frontend\.next\server                                                              |         10 |         36 |          0 |          1 |         37 |
+| frontend\.next\static                                                              |          3 |          3 |          0 |          1 |          4 |
+| frontend\.next\static\chunks                                                       |          1 |          1 |          0 |          1 |          2 |
+| frontend\.next\static\development                                                  |          2 |          2 |          0 |          0 |          2 |
+| frontend\.next\types                                                               |          2 |         24 |        106 |         13 |        143 |
+| frontend\app                                                                       |          7 |        363 |          0 |         29 |        392 |
+| frontend\app (Files)                                                               |          3 |        140 |          0 |         10 |        150 |
+| frontend\app\askai                                                                 |          1 |        102 |          0 |          8 |        110 |
+| frontend\app\dashboard                                                             |          1 |         49 |          0 |          3 |         52 |
+| frontend\app\onboarding                                                            |          1 |         26 |          0 |          2 |         28 |
+| frontend\app\test                                                                  |          1 |         46 |          0 |          6 |         52 |
+| frontend\components                                                                |         73 |      8,241 |        169 |        839 |      9,249 |
+| frontend\components (Files)                                                        |         18 |      3,243 |         87 |        217 |      3,547 |
+| frontend\components\magicui                                                        |          5 |        564 |         65 |         40 |        669 |
+| frontend\components\ui                                                             |         50 |      4,434 |         17 |        582 |      5,033 |
+| frontend\hooks                                                                     |          2 |        175 |          3 |         37 |        215 |
+| frontend\lib                                                                       |          1 |          5 |          0 |          2 |          7 |
+| frontend\public                                                                    |          2 |          2 |          0 |          0 |          2 |
+| frontend\styles                                                                    |          1 |         90 |          0 |          5 |         95 |
++------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| filename                                                                           | language           | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| c:\Users\ashis\edwise\README.md                                                    | Markdown           |          7 |          0 |          0 |          7 |
+| c:\Users\ashis\edwise\ai\client\index.ts                                           | TypeScript         |         16 |          0 |          5 |         21 |
+| c:\Users\ashis\edwise\ai\client\nodemon.json                                       | JSON               |         12 |          0 |          1 |         13 |
+| c:\Users\ashis\edwise\ai\client\package-lock.json                                  | JSON               |      1,701 |          0 |          1 |      1,702 |
+| c:\Users\ashis\edwise\ai\client\package.json                                       | JSON               |         22 |          0 |          1 |         23 |
+| c:\Users\ashis\edwise\ai\client\tsconfig.json                                      | JSON with Comments |         14 |          0 |          1 |         15 |
+| c:\Users\ashis\edwise\ai\server\index.ts                                           | TypeScript         |        191 |          1 |         22 |        214 |
+| c:\Users\ashis\edwise\ai\server\nodemon.json                                       | JSON               |         12 |          0 |          1 |         13 |
+| c:\Users\ashis\edwise\ai\server\package-lock.json                                  | JSON               |      1,485 |          0 |          1 |      1,486 |
+| c:\Users\ashis\edwise\ai\server\package.json                                       | JSON               |         14 |          0 |          1 |         15 |
+| c:\Users\ashis\edwise\ai\server\tsconfig.json                                      | JSON with Comments |         14 |          0 |          1 |         15 |
+| c:\Users\ashis\edwise\backend\README.md                                            | Markdown           |         12 |          0 |          5 |         17 |
+| c:\Users\ashis\edwise\backend\drizzle.config.ts                                    | TypeScript         |         10 |          0 |          2 |         12 |
+| c:\Users\ashis\edwise\backend\drizzle\0000_easy_pyro.sql                           | MS SQL             |         64 |          8 |          0 |         72 |
+| c:\Users\ashis\edwise\backend\drizzle\meta\0000_snapshot.json                      | JSON               |        486 |          0 |          0 |        486 |
+| c:\Users\ashis\edwise\backend\drizzle\meta\_journal.json                           | JSON               |         13 |          0 |          0 |         13 |
+| c:\Users\ashis\edwise\backend\nodemon.json                                         | JSON               |         12 |          0 |          1 |         13 |
+| c:\Users\ashis\edwise\backend\package-lock.json                                    | JSON               |      2,918 |          0 |          1 |      2,919 |
+| c:\Users\ashis\edwise\backend\package.json                                         | JSON               |         25 |          0 |          1 |         26 |
+| c:\Users\ashis\edwise\backend\src\controllers\user.controller.ts                   | TypeScript         |        364 |          5 |         45 |        414 |
+| c:\Users\ashis\edwise\backend\src\database\db.ts                                   | TypeScript         |          4 |          0 |          3 |          7 |
+| c:\Users\ashis\edwise\backend\src\database\schema\schema.ts                        | TypeScript         |         79 |          7 |          9 |         95 |
+| c:\Users\ashis\edwise\backend\src\index.ts                                         | TypeScript         |         19 |          0 |          5 |         24 |
+| c:\Users\ashis\edwise\backend\src\routes\user.routes.ts                            | TypeScript         |         70 |          7 |         13 |         90 |
+| c:\Users\ashis\edwise\backend\tsconfig.json                                        | JSON with Comments |         14 |          0 |          1 |         15 |
+| c:\Users\ashis\edwise\frontend\.next\app-build-manifest.json                       | JSON               |          3 |          0 |          0 |          3 |
+| c:\Users\ashis\edwise\frontend\.next\build-manifest.json                           | JSON               |         17 |          0 |          0 |         17 |
+| c:\Users\ashis\edwise\frontend\.next\package.json                                  | JSON               |          1 |          0 |          0 |          1 |
+| c:\Users\ashis\edwise\frontend\.next\react-loadable-manifest.json                  | JSON               |          1 |          0 |          0 |          1 |
+| c:\Users\ashis\edwise\frontend\.next\server\app-paths-manifest.json                | JSON               |          1 |          0 |          0 |          1 |
+| c:\Users\ashis\edwise\frontend\.next\server\interception-route-rewrite-manifest.js | JavaScript         |          1 |          0 |          0 |          1 |
+| c:\Users\ashis\edwise\frontend\.next\server\middleware-build-manifest.js           | JavaScript         |         18 |          0 |          1 |         19 |
+| c:\Users\ashis\edwise\frontend\.next\server\middleware-manifest.json               | JSON               |          6 |          0 |          0 |          6 |
+| c:\Users\ashis\edwise\frontend\.next\server\middleware-react-loadable-manifest.js  | JavaScript         |          1 |          0 |          0 |          1 |
+| c:\Users\ashis\edwise\frontend\.next\server\next-font-manifest.js                  | JavaScript         |          1 |          0 |          0 |          1 |
+| c:\Users\ashis\edwise\frontend\.next\server\next-font-manifest.json                | JSON               |          1 |          0 |          0 |          1 |
+| c:\Users\ashis\edwise\frontend\.next\server\pages-manifest.json                    | JSON               |          1 |          0 |          0 |          1 |
+| c:\Users\ashis\edwise\frontend\.next\server\server-reference-manifest.js           | JavaScript         |          1 |          0 |          0 |          1 |
+| c:\Users\ashis\edwise\frontend\.next\server\server-reference-manifest.json         | JSON               |          5 |          0 |          0 |          5 |
+| c:\Users\ashis\edwise\frontend\.next\static\chunks\polyfills.js                    | JavaScript         |          1 |          0 |          1 |          2 |
+| c:\Users\ashis\edwise\frontend\.next\static\development\_buildManifest.js          | JavaScript         |          1 |          0 |          0 |          1 |
+| c:\Users\ashis\edwise\frontend\.next\static\development\_ssgManifest.js            | JavaScript         |          1 |          0 |          0 |          1 |
+| c:\Users\ashis\edwise\frontend\.next\types\cache-life.d.ts                         | TypeScript         |         23 |        106 |         13 |        142 |
+| c:\Users\ashis\edwise\frontend\.next\types\package.json                            | JSON               |          1 |          0 |          0 |          1 |
+| c:\Users\ashis\edwise\frontend\README.md                                           | Markdown           |         18 |          0 |         12 |         30 |
+| c:\Users\ashis\edwise\frontend\app\askai\page.tsx                                  | TypeScript JSX     |        102 |          0 |          8 |        110 |
+| c:\Users\ashis\edwise\frontend\app\dashboard\page.tsx                              | TypeScript JSX     |         49 |          0 |          3 |         52 |
+| c:\Users\ashis\edwise\frontend\app\globals.css                                     | PostCSS            |        103 |          0 |          5 |        108 |
+| c:\Users\ashis\edwise\frontend\app\layout.tsx                                      | TypeScript JSX     |         21 |          0 |          2 |         23 |
+| c:\Users\ashis\edwise\frontend\app\onboarding\page.tsx                             | TypeScript JSX     |         26 |          0 |          2 |         28 |
+| c:\Users\ashis\edwise\frontend\app\page.tsx                                        | TypeScript JSX     |         16 |          0 |          3 |         19 |
+| c:\Users\ashis\edwise\frontend\app\test\page.tsx                                   | TypeScript JSX     |         46 |          0 |          6 |         52 |
+| c:\Users\ashis\edwise\frontend\components.json                                     | JSON               |         21 |          0 |          0 |         21 |
+| c:\Users\ashis\edwise\frontend\components\Dock.tsx                                 | TypeScript JSX     |        153 |          0 |          6 |        159 |
+| c:\Users\ashis\edwise\frontend\components\Herosection.tsx                          | TypeScript JSX     |         16 |          0 |          1 |         17 |
+| c:\Users\ashis\edwise\frontend\components\Landingbg.tsx                            | TypeScript JSX     |         11 |          0 |          4 |         15 |
+| c:\Users\ashis\edwise\frontend\components\dashboard.tsx                            | TypeScript JSX     |        633 |          8 |         28 |        669 |
+| c:\Users\ashis\edwise\frontend\components\educators-list.tsx                       | TypeScript JSX     |        244 |          8 |         17 |        269 |
+| c:\Users\ashis\edwise\frontend\components\landing-page.tsx                         | TypeScript JSX     |        145 |          6 |         11 |        162 |
+| c:\Users\ashis\edwise\frontend\components\lesson-page.tsx                          | TypeScript JSX     |        211 |          5 |         17 |        233 |
+| c:\Users\ashis\edwise\frontend\components\live-lecture.tsx                         | TypeScript JSX     |        270 |         11 |         14 |        295 |
+| c:\Users\ashis\edwise\frontend\components\magicui\dock.tsx                         | TypeScript JSX     |        127 |          0 |         18 |        145 |
+| c:\Users\ashis\edwise\frontend\components\magicui\dot-pattern.tsx                  | TypeScript JSX     |        108 |         42 |          9 |        159 |
+| c:\Users\ashis\edwise\frontend\components\magicui\iphone-15-pro.tsx                | TypeScript JSX     |        106 |          0 |          4 |        110 |
+| c:\Users\ashis\edwise\frontend\components\magicui\retro-grid.tsx                   | TypeScript JSX     |         42 |         23 |          5 |         70 |
+| c:\Users\ashis\edwise\frontend\components\magicui\safari.tsx                       | TypeScript JSX     |        181 |          0 |          4 |        185 |
+| c:\Users\ashis\edwise\frontend\components\mode-toggle.tsx                          | TypeScript JSX     |         36 |          0 |          5 |         41 |
+| c:\Users\ashis\edwise\frontend\components\navbar.tsx                               | TypeScript JSX     |        148 |          6 |         10 |        164 |
+| c:\Users\ashis\edwise\frontend\components\onboarding-page.tsx                      | TypeScript JSX     |        125 |          2 |         10 |        137 |
+| c:\Users\ashis\edwise\frontend\components\progress-page.tsx                        | TypeScript JSX     |        189 |          6 |         15 |        210 |
+| c:\Users\ashis\edwise\frontend\components\recorded-lectures.tsx                    | TypeScript JSX     |        323 |         13 |         24 |        360 |
+| c:\Users\ashis\edwise\frontend\components\sidebar.tsx                              | TypeScript JSX     |         73 |          3 |          7 |         83 |
+| c:\Users\ashis\edwise\frontend\components\signup-page.tsx                          | TypeScript JSX     |        309 |         10 |         21 |        340 |
+| c:\Users\ashis\edwise\frontend\components\student-dashboard.tsx                    | TypeScript JSX     |        157 |          5 |         11 |        173 |
+| c:\Users\ashis\edwise\frontend\components\teacher-chat-page.tsx                    | TypeScript JSX     |        191 |          4 |         13 |        208 |
+| c:\Users\ashis\edwise\frontend\components\theme-provider.tsx                       | TypeScript JSX     |          9 |          0 |          3 |         12 |
+| c:\Users\ashis\edwise\frontend\components\ui\accordion.tsx                         | TypeScript JSX     |         50 |          0 |          9 |         59 |
+| c:\Users\ashis\edwise\frontend\components\ui\alert-dialog.tsx                      | TypeScript JSX     |        127 |          0 |         15 |        142 |
+| c:\Users\ashis\edwise\frontend\components\ui\alert.tsx                             | TypeScript JSX     |         53 |          0 |          7 |         60 |
+| c:\Users\ashis\edwise\frontend\components\ui\aspect-ratio.tsx                      | TypeScript JSX     |          4 |          0 |          4 |          8 |
+| c:\Users\ashis\edwise\frontend\components\ui\avatar.tsx                            | TypeScript JSX     |         34 |          0 |          7 |         41 |
+| c:\Users\ashis\edwise\frontend\components\ui\badge.tsx                             | TypeScript JSX     |         24 |          0 |          6 |         30 |
+| c:\Users\ashis\edwise\frontend\components\ui\breadcrumb.tsx                        | TypeScript JSX     |        105 |          0 |         11 |        116 |
+| c:\Users\ashis\edwise\frontend\components\ui\button.tsx                            | TypeScript JSX     |         51 |          0 |          6 |         57 |
+| c:\Users\ashis\edwise\frontend\components\ui\calendar.tsx                          | TypeScript JSX     |         61 |          0 |          6 |         67 |
+| c:\Users\ashis\edwise\frontend\components\ui\card.tsx                              | TypeScript JSX     |         71 |          0 |          9 |         80 |
+| c:\Users\ashis\edwise\frontend\components\ui\carousel.tsx                          | TypeScript JSX     |        232 |          0 |         31 |        263 |
+| c:\Users\ashis\edwise\frontend\components\ui\chart.tsx                             | TypeScript JSX     |        327 |          2 |         37 |        366 |
+| c:\Users\ashis\edwise\frontend\components\ui\checkbox.tsx                          | TypeScript JSX     |         24 |          0 |          5 |         29 |
+| c:\Users\ashis\edwise\frontend\components\ui\collapsible.tsx                       | TypeScript JSX     |          6 |          0 |          6 |         12 |
+| c:\Users\ashis\edwise\frontend\components\ui\command.tsx                           | TypeScript JSX     |        136 |          0 |         18 |        154 |
+| c:\Users\ashis\edwise\frontend\components\ui\context-menu.tsx                      | TypeScript JSX     |        182 |          0 |         19 |        201 |
+| c:\Users\ashis\edwise\frontend\components\ui\dialog.tsx                            | TypeScript JSX     |        109 |          0 |         14 |        123 |
+| c:\Users\ashis\edwise\frontend\components\ui\drawer.tsx                            | TypeScript JSX     |        105 |          0 |         14 |        119 |
+| c:\Users\ashis\edwise\frontend\components\ui\dropdown-menu.tsx                     | TypeScript JSX     |        163 |          0 |         19 |        182 |
+| c:\Users\ashis\edwise\frontend\components\ui\form.tsx                              | TypeScript JSX     |        153 |          0 |         26 |        179 |
+| c:\Users\ashis\edwise\frontend\components\ui\hover-card.tsx                        | TypeScript JSX     |         23 |          0 |          7 |         30 |
+| c:\Users\ashis\edwise\frontend\components\ui\input-otp.tsx                         | TypeScript JSX     |         63 |          0 |          9 |         72 |
+| c:\Users\ashis\edwise\frontend\components\ui\input.tsx                             | TypeScript JSX     |         19 |          0 |          4 |         23 |
+| c:\Users\ashis\edwise\frontend\components\ui\label.tsx                             | TypeScript JSX     |         21 |          0 |          6 |         27 |
+| c:\Users\ashis\edwise\frontend\components\ui\menubar.tsx                           | TypeScript JSX     |        217 |          0 |         20 |        237 |
+| c:\Users\ashis\edwise\frontend\components\ui\navigation-menu.tsx                   | TypeScript JSX     |        117 |          0 |         12 |        129 |
+| c:\Users\ashis\edwise\frontend\components\ui\pagination.tsx                        | TypeScript JSX     |        107 |          0 |         11 |        118 |
+| c:\Users\ashis\edwise\frontend\components\ui\popover.tsx                           | TypeScript JSX     |         25 |          0 |          7 |         32 |
+| c:\Users\ashis\edwise\frontend\components\ui\progress.tsx                          | TypeScript JSX     |         24 |          0 |          5 |         29 |
+| c:\Users\ashis\edwise\frontend\components\ui\radio-group.tsx                       | TypeScript JSX     |         33 |          0 |          6 |         39 |
+| c:\Users\ashis\edwise\frontend\components\ui\resizable.tsx                         | TypeScript JSX     |         39 |          0 |          7 |         46 |
+| c:\Users\ashis\edwise\frontend\components\ui\scroll-area.tsx                       | TypeScript JSX     |         35 |          0 |          6 |         41 |
+| c:\Users\ashis\edwise\frontend\components\ui\select.tsx                            | TypeScript JSX     |        146 |          0 |         15 |        161 |
+| c:\Users\ashis\edwise\frontend\components\ui\separator.tsx                         | TypeScript JSX     |         27 |          0 |          5 |         32 |
+| c:\Users\ashis\edwise\frontend\components\ui\sheet.tsx                             | TypeScript JSX     |        125 |          0 |         16 |        141 |
+| c:\Users\ashis\edwise\frontend\components\ui\sidebar.tsx                           | TypeScript JSX     |        697 |         12 |         55 |        764 |
+| c:\Users\ashis\edwise\frontend\components\ui\skeleton.tsx                          | TypeScript JSX     |         13 |          0 |          3 |         16 |
+| c:\Users\ashis\edwise\frontend\components\ui\slider.tsx                            | TypeScript JSX     |         24 |          0 |          5 |         29 |
+| c:\Users\ashis\edwise\frontend\components\ui\sonner.tsx                            | TypeScript JSX     |         26 |          0 |          6 |         32 |
+| c:\Users\ashis\edwise\frontend\components\ui\switch.tsx                            | TypeScript JSX     |         25 |          0 |          5 |         30 |
+| c:\Users\ashis\edwise\frontend\components\ui\table.tsx                             | TypeScript JSX     |        107 |          0 |         11 |        118 |
+| c:\Users\ashis\edwise\frontend\components\ui\tabs.tsx                              | TypeScript JSX     |         48 |          0 |          8 |         56 |
+| c:\Users\ashis\edwise\frontend\components\ui\textarea.tsx                          | TypeScript JSX     |         19 |          0 |          4 |         23 |
+| c:\Users\ashis\edwise\frontend\components\ui\toast.tsx                             | TypeScript JSX     |        116 |          0 |         14 |        130 |
+| c:\Users\ashis\edwise\frontend\components\ui\toaster.tsx                           | TypeScript JSX     |         32 |          0 |          4 |         36 |
+| c:\Users\ashis\edwise\frontend\components\ui\toggle-group.tsx                      | TypeScript JSX     |         52 |          0 |         10 |         62 |
+| c:\Users\ashis\edwise\frontend\components\ui\toggle.tsx                            | TypeScript JSX     |         39 |          0 |          7 |         46 |
+| c:\Users\ashis\edwise\frontend\components\ui\tooltip.tsx                           | TypeScript JSX     |         23 |          0 |          8 |         31 |
+| c:\Users\ashis\edwise\frontend\components\ui\use-mobile.tsx                        | TypeScript JSX     |         15 |          0 |          5 |         20 |
+| c:\Users\ashis\edwise\frontend\components\ui\use-toast.ts                          | TypeScript         |        160 |          3 |         32 |        195 |
+| c:\Users\ashis\edwise\frontend\hooks\use-mobile.tsx                                | TypeScript JSX     |         15 |          0 |          5 |         20 |
+| c:\Users\ashis\edwise\frontend\hooks\use-toast.ts                                  | TypeScript         |        160 |          3 |         32 |        195 |
+| c:\Users\ashis\edwise\frontend\lib\utils.ts                                        | TypeScript         |          5 |          0 |          2 |          7 |
+| c:\Users\ashis\edwise\frontend\middleware.ts                                       | TypeScript         |         21 |          2 |          2 |         25 |
+| c:\Users\ashis\edwise\frontend\next-env.d.ts                                       | TypeScript         |          0 |          4 |          2 |          6 |
+| c:\Users\ashis\edwise\frontend\next.config.mjs                                     | JavaScript         |         12 |          1 |          1 |         14 |
+| c:\Users\ashis\edwise\frontend\package-lock.json                                   | JSON               |      6,808 |          0 |          1 |      6,809 |
+| c:\Users\ashis\edwise\frontend\package.json                                        | JSON               |         73 |          0 |          1 |         74 |
+| c:\Users\ashis\edwise\frontend\pnpm-lock.yaml                                      | YAML               |      3,588 |          0 |        706 |      4,294 |
+| c:\Users\ashis\edwise\frontend\postcss.config.mjs                                  | JavaScript         |          6 |          1 |          2 |          9 |
+| c:\Users\ashis\edwise\frontend\public\placeholder-logo.svg                         | XML                |          1 |          0 |          0 |          1 |
+| c:\Users\ashis\edwise\frontend\public\placeholder.svg                              | XML                |          1 |          0 |          0 |          1 |
+| c:\Users\ashis\edwise\frontend\styles\globals.css                                  | PostCSS            |         90 |          0 |          5 |         95 |
+| c:\Users\ashis\edwise\frontend\tailwind.config.ts                                  | TypeScript         |         95 |          0 |          2 |         97 |
+| c:\Users\ashis\edwise\frontend\tsconfig.json                                       | JSON with Comments |         27 |          0 |          1 |         28 |
+| Total                                                                              |                    |     27,208 |        314 |      1,778 |     29,300 |
++------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
